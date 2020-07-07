@@ -288,3 +288,30 @@ body {
    opacity: 0;
    transition: opacity 0.2s linear;
 }
+
+.statistics {
+   background-color: #95e1d3;
+}
+.stat {
+   display: flex;  
+}
+.stat__item {
+   padding: 70px 25px;
+   flex: 1 1 0;
+   text-align: center;
+   color: white;
+   border-left: 1px solid #b5eae0;
+
+}
+.stat__item:last-child {
+   border-right: 1px solid #b5eae0;
+}
+.stat__count {
+   margin-bottom: 10px;
+   font-size: 72px;
+   font-weight: 700;
+   line-height: 1;
+}
+.stat__text {
+   font-size: 14px;
+}
